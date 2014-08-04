@@ -1,0 +1,5 @@
+@(name: String)(content: Xml)
+
+<@name>
+	@content
+</@name>

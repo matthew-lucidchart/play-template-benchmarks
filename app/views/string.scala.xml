@@ -1,0 +1,9 @@
+@(string: String)
+
+@views.xml.main("response") {
+	@if(!string.isEmpty) {
+		<string>
+			@string
+		</string>
+	}
+}

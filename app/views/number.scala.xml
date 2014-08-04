@@ -1,0 +1,11 @@
+@(items: List[Int])
+
+@views.xml.main("response") {
+	<items>
+		@items.map { item =>
+			<item>
+				<number>@item</number>
+			</item>
+		}
+	</items>
+}
